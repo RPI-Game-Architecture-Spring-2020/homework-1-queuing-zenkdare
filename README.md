@@ -1,5 +1,5 @@
-# ga2017-homework1
-First homework for RPI Game Architecture 2017.
+# ga2020-homework1
+First homework for RPI Game Architecture 2020.
 
 A thread-safe queue is the backbone of many job/task systems used by games.
 In this homework you will implement a thread-safe queue. The interface for
@@ -12,7 +12,7 @@ runs some simple unit tests. See src/engine/jobs/ga_queue.tests.cpp.
 For this homework:
 
 	You *must* implement the locking queue defined in the paper by Michael and
-	Scott: https://www.research.ibm.com/people/m/michael/podc-1996.pdf
+	Scott: https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf
 
 	For 10% extra credit, you *may* also implement the lock-free version. The
 	lock free version implements a common, but slightly confusing, technique.
