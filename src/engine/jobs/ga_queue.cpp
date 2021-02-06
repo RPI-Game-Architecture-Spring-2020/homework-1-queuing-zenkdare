@@ -8,19 +8,12 @@
 */
 
 #include "ga_queue.h"
-#include <mutex>          // std::mutex
+
 #include <iostream>
 
-struct node {
-	void* value;
-	node* next;
-};
 
-node* head;
-node* tail;
-std::mutex head_lock;
-std::mutex tail_lock;
-int node_num = 0;
+
+
 
 ga_queue::ga_queue(int node_count)
 {
